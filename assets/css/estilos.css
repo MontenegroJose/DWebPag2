@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+#container{
+
+    display: table;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(83, 146, 122);
+
+}
+
+#nav{
+
+    background-color: aliceblue;
+    color:darkcyan;
+    display: table;
+    width: 100%;
+}
+
+#nav ol{
+    display: flex;
+}
+
+#nav ol li{
+list-style: none;
+}
+
+#nav ol li a{
+
+    text-decoration: none;
+    padding: 15px 25px 15px 25px;
+    display: table;
+    border-right: 1px solid white;
+    color: darkgoldenrod;
+}
+
+#header {
+    display: table;
+    width: 100%;
+    height: 400px;
+    background-color: beige;
+    background-image: url(../img/England.png) ;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#header h2{
+
+    text-align: center;
+    vertical-align: middle;
+    line-height: 400px;
+
+}
+
+#footer{
+
+    display: table;
+    width: 100%;
+    height: 100%;
+    color: black;
+    background-color:cornsilk;
+    text-align: center;
+    padding-top: 2%;
+    font-weight: 700;
+}
+
+#bodyAboutUs{
+
+    display: table;
+    width: 100%;
+    height: 100%;
+    color: black;
+    background-color: antiquewhite;
+}
+
+h3{
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 1%;
+}
+
+p{
+
+    text-align: justify;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2.5%;
+    margin-bottom: 1%;
+
+}
+
+#bodyServicios{
+
+    display: table;
+    width: 100%;
+    height: 100%;
+    color: black;
+    background-color: antiquewhite;
+}
+
+#bodyContactos{
+
+    display: table;
+    width: 100%;
+    height: 100%;
+    color: black;
+    background-color: antiquewhite;
+}
+
+#bodyProductos{
+
+    display: table;
+    width: 100%;
+    height: 100%;
+    color: black;
+    background-color:antiquewhite;
+}
+
+@media (max-width:393px){
+/* Los puntos de corte dependiendo del ancho máximo - pantalla */
+
+#header {
+    display: table;
+    width: 100%;
+    height: 400px;
+    background-color: beige;
+    background-image: url(../img/Shinto.png) ;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#header h2{
+    display: none;
+}
+
+#nav{
+
+    background-color: aliceblue;
+    color:darkcyan;
+    display: table;
+    width: 100%;
+}
+
+#nav ol{
+    display: block;
+}
+
+#nav ol li{
+list-style: none;
+}
+
+#nav ol li a{
+
+    text-decoration: none;
+    width: 100%;
+    display: table;
+    border-bottom: 1px solid white;
+    color: darkgoldenrod;
+    text-align: center;
+}
+
+}
